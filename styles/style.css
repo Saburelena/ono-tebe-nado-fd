@@ -21,7 +21,7 @@
     line-height: 21px;
     font-size: 18px;
     text-decoration: underline;
-    text-underline-offset: 4.5px;
+    text-underline-offset: 4px;
 }
     
 .header__links-list-item_no-bullit {
@@ -260,7 +260,7 @@
 .about_content {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 24px;
     padding-top: 100px;
 }
         
@@ -303,7 +303,7 @@
 
     .footer_adress_underline {
         text-decoration: underline;
-        text-underline-offset: 4.5px;
+        text-underline-offset: 4px;
     }
     
 .footer_menu_links {
