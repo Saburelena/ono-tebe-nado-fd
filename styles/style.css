@@ -136,7 +136,7 @@
 .bet-button {
     width: 256px;
     height: 51px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid currentColor;
     background-color: transparent;
     font-family: "Raleway", sans-serif;
     color: rgb(255, 255, 255);
@@ -294,6 +294,7 @@
     padding: 180px 50px 82px 48px;
     gap: 140px;
     align-items: flex-start;
+    margin:0px
 }
         
 .footer_address {
@@ -305,11 +306,14 @@
         text-decoration: underline;
         text-underline-offset: 4px;
     }
-    
-.footer_menu_links {
-    list-style-type: none;
+
+.footer_menu {
     text-underline-offset: 4px;
 }
+    
+    .footer_menu_links {
+        list-style-type: none;
+    }
     
 .footer_links {
     color: rgb(0, 0, 0);
@@ -323,7 +327,10 @@
     text-decoration: none;
 }
     
-.footer_images {
+.footer_images_links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     gap: 48px;
 }
@@ -331,4 +338,4 @@
 .images_footer {
     width: 48px;
     height: 48px;
-}   
+}
