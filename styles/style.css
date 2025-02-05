@@ -46,11 +46,12 @@
     font-family: "Raleway", sans-serif;
     list-style-type: none;
     font-style: normal;
+    text-underline-offset: 4.5px;
+    
 }
         
 .address_text_underline {
-    text-decoration: underline;
-    text-underline-offset: 4.5px;
+    text-decoration: underline;  
 }
 .cover {
     position: relative;
@@ -296,24 +297,14 @@
     align-items: flex-start;
     margin:0px
 }
-        
+
 .footer_address {
-    font-style: normal;
     padding-left: 0px;
 }
 
-    .footer_adress_underline {
-        text-decoration: underline;
-        text-underline-offset: 4px;
-    }
-
-.footer_menu {
-    text-underline-offset: 4px;
+.footer_menu_links {
+    list-style-type: none;
 }
-    
-    .footer_menu_links {
-        list-style-type: none;
-    }
     
 .footer_links {
     color: rgb(0, 0, 0);
